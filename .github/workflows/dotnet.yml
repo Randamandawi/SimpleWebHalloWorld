@@ -23,5 +23,5 @@ jobs:
         push: true
         context: ${{env.working-directory}}/PROJECT_DIR
         tags: |
-          ghcr.io/Randamandawi/SimpleWebHalloWorld/:latest
-          ghcr.io/Randamandawi/SimpleWebHalloWorld/:${{github.run_number }}
+          ghcr.io/${{ github.actor }}/webapp:latest
+          ghcr.io/${{ github.actor }}/webapp:${{github.run_number }}

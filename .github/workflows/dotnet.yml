@@ -23,5 +23,5 @@ jobs:
         push: true
         context: ${{env.working-directory}}/PROJECT_DIR
         tags: |
-          ghcr.io/DITT_USER_NAME/PROJECT:latest
-          ghcr.io/DITT_USER_NAME/PROJECT:${{ github.run_number }}
+          ghcr.io/Randamandawi/SimpleWebHalloWorld/:latest
+          ghcr.io/Randamandawi/SimpleWebHalloWorld/:${{github.run_number }}
